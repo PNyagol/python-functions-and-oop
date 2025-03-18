@@ -8,7 +8,7 @@ class Dog():
     
 
     def __str__(self):
-        return f'{self.name} is {self.age} years old.'
+        return f'{self.name} who is {self.breed} breed is {self.age} years old.'
     
 
     def speak(self, sound):
